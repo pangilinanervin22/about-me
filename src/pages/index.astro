@@ -1,0 +1,15 @@
+---
+import Hobbies from "../components/Hobbies.astro";
+import ShowCase from "../components/ShowCase.astro";
+import ThreeAbout from "../components/ThreeAbout.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+import MainLayout from "../layouts/MainLayout.astro";
+---
+
+<MainLayout>
+	<ShowCase />
+	<ThreeAbout />
+	<Hobbies />
+</MainLayout>
+
+<style lang="scss"></style>
