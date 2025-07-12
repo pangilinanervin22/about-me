@@ -1,0 +1,57 @@
+---
+// No frontmatter needed for a simple navbar
+---
+
+<nav class="navbar">
+        <div class="navbar-title">
+                <span class="navbar-main-title">My Portfolio</span>
+        </div>
+
+        <ul class="nav-list">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/contact">Contact</a></li>
+        </ul>
+</nav>
+
+<style>
+        .navbar {
+                background: #222;
+                padding: 1rem 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 12px 24px;
+        }
+        .navbar-title {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                justify-content: center;
+                margin-bottom: 0.5rem;
+        }
+        .navbar-main-title {
+                color: #fff;
+                font-size: 1.5rem;
+                font-weight: bold;
+                letter-spacing: 1px;
+        }
+        .nav-list {
+                display: flex;
+                gap: 2rem;
+                list-style: none;
+                justify-content: center;
+                margin: 0;
+                padding: 0;
+        }
+        .nav-list a {
+                color: #fff;
+                text-decoration: none;
+                font-weight: 500;
+                transition: color 0.2s;
+        }
+        .nav-list a:hover {
+                color: #1e90ff;
+        }
+</style>
